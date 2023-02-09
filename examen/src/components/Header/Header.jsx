@@ -5,14 +5,20 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className={styles.HeaderWrapper}>
-            <Link className={styles.link} to={'/form1'}>
-                Primul tab
+            <Link className={styles.link} to={'/calculator-componente-electronice'}>
+                Calculator componente electronice
             </Link>
-            <Link className={styles.link} to={'/form2'}>
-                Al doilea tab
+            <Link className={styles.link} to={'/formular-de-calcul'}>
+                Formular de calcul
             </Link>
-            <Link className={styles.link} to={'/form3'}>
-                Al treilea tab
+            <Link className={styles.link} to={'/convertor-marimi-electrice'}>
+                Convertor marimi electrice
+            </Link>
+            <Link className={styles.link} to={'/contact'}>
+                Contact
+            </Link>
+            <Link className={styles.link} to={'/quizz'}>
+                Quizz
             </Link>
         </div>
     )
